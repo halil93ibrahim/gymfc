@@ -172,7 +172,7 @@ def main(env_id, seed):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser("Evaluate a PID controller")
-    parser.add_argument('--env-id', type=str, default='')
+    parser.add_argument('--env-id', type=str, default='AttFC_GyroErr-MotorVel_M4_Ep-v0')
     parser.add_argument('--seed', help='RNG seed', type=int, default=17)
 
     args = parser.parse_args()
